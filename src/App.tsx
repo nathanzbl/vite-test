@@ -34,7 +34,7 @@ function App() {
         key={todo.id}>{todo.content}</li>
         ))}
       </ul>
-      <div>
+      <div className= "text-5xl text-center text-red-500 bg-white p-4 rounded-lg">
         🥳 App successfully hosted. Try creating a new todo.
         <br />
         <a href="https://docs.amplify.aws/react/start/quickstart/#make-frontend-updates">
